@@ -21,18 +21,11 @@ header {
 }
 
 .burger {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
+  display: none;
 }
 
-.burger-line {
-  width: 30px;
-  height: 3px;
-  background-color: black;
-  margin: 3px 0;
+.menu {
+  display: none;
 }
 
 nav ul {
@@ -217,6 +210,7 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+
   .burger {
     display: flex;
     flex-direction: column;
