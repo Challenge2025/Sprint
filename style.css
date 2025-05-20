@@ -222,6 +222,42 @@ footer {
   background-color: #00408a;
 }
 
+.blocos-duplos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.info-bloco {
+  flex: 1 1 45%;
+  background-color: #FAF0E6;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.info-bloco:hover {
+  transform: scale(1.05);
+}
+
+.info-conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.info-imagem {
+  max-width: 200px;
+  border-radius: 8px;
+}
+
+.info-texto {
+  flex: 1;
+}
 
 @media (max-width: 600px) {
   nav ul {
