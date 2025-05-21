@@ -260,7 +260,7 @@ html, body {
   background-color: #00408a;
 }
 
-.blocos-duplos {
+.blocos {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -269,7 +269,7 @@ html, body {
 }
 
 .info-bloco {
-  flex: 1 1 45%;
+  flex: 1 1 30%;
   background-color: #FAF0E6;
   padding: 1.5rem;
   border-radius: 4%;
