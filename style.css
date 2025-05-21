@@ -217,47 +217,79 @@ html, body {
   margin: 0;
 }
 
-.contato-form {
+/* Estilo do formulário */
+#contato-form {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 100%;
+  max-width: 500px;
   gap: 1rem;
   background-color: #ffffff;
   padding: 2rem;
-  border-radius: 2%;
+  border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
 }
-.contato-form:hover {
+
+#contato-form:hover {
   transform: scale(1.01);
 }
 
-.contato-form label {
+#contato-form label {
   font-weight: bold;
 }
 
-.contato-form input,
-.contato-form textarea {
+#contato-form input,
+#contato-form textarea {
   padding: 0.75rem;
-  border-radius: 2%;
+  border-radius: 6px;
   border: 1px solid #ccc;
   font-size: 1rem;
   font-family: inherit;
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
 }
 
-.contato-form button {
-  background-color: #0056b3;
-  color: white;
-  border: none;
+.error-message {
+  color: #d93025;
+  font-size: 0.875rem;
+  margin-top: -0.5rem;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+#contato-form button {
   padding: 0.75rem;
-  border-radius: 8px;
-  cursor: pointer;
+  border: none;
+  border-radius: 6px;
   font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
   transition: background-color 0.3s;
 }
 
-.contato-form button:hover {
+#submit {
+  background-color: #0056b3;
+  color: white;
+}
+
+#submit:hover {
   background-color: #00408a;
+}
+
+#contato-form button[type="reset"] {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+#contato-form button[type="reset"]:hover {
+  background-color: #c2c2c2;
 }
 
 .blocos {
