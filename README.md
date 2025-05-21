@@ -9,19 +9,33 @@ O HC Assistente é um aplicativo de apoio voltado para pacientes com dificuldade
 ## 📁 Estrutura de Pastas e Arquivos
 
 📁 Sprint/
+
 ├── 📁 img/
+
 │   └── (imagens do projeto)
+
 ├── 📁 videos/
+
 │   └── (vídeos tutoriais)
+
 ├── 📄 README.md
+
 ├── 📄 application.js
+
 ├── 📄 contato.html
+
 ├── 📄 faq.html
+
 ├── 📄 index.html
+
 ├── 📄 integrantes.html
+
 ├── 📄 ondedoi.html
+
 ├── 📄 solucao.html
+
 ├── 📄 style.css
+
 ├── 📄 tutoriais.html
 
 ---
