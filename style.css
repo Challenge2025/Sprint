@@ -71,10 +71,14 @@ main {
   border-radius: 10px;
 }
 
+.subtitulo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 .hero p {
   font-size: x-large;
   margin-bottom: 3rem;
-  font-weight: bold;
 }
 
 .hero img {
