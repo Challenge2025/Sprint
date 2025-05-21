@@ -409,7 +409,25 @@ footer {
   gap: 30px;
   padding: 40px 20px;
   margin-bottom: 20%;
-}
+  }
+  #contato-form {
+    width: 90%;
+    padding: 1.5rem;
+    border-radius: 6px;
+  }
+
+  #contato-form input,
+  #contato-form textarea {
+    font-size: 0.95rem;
+  }
+
+  #contato-form button {
+    font-size: 0.95rem;
+  }
+
+  .error-message {
+    font-size: 0.8rem;
+  }
 }
 
 @media (min-width: 600px) {
@@ -433,6 +451,7 @@ footer {
   .bloco-tutorial {
     max-width: 90%;
   }
+  
 }
 
 @media (min-width: 992px) {
